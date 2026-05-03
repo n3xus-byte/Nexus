@@ -19,8 +19,9 @@
       <li><a href="getkey.html" class="active">Get Key</a></li>
       <li><a href="https://discord.gg/YOURLINK" target="_blank" class="btn-discord">Discord</a></li>
     </ul>
-    <div class="hamburger" onclick="toggleMenu()">☰</div>
+    <div class="hamburger" onclick="toggleMenu()">&#9776;</div>
   </nav>
+
   <div class="mobile-menu" id="mobileMenu">
     <a href="index.html">Home</a>
     <a href="about.html">About</a>
@@ -32,22 +33,24 @@
   <section class="page-hero">
     <div class="hero-bg-grid"></div>
     <h1>Get Your <span class="accent">Key</span></h1>
-    <p>Follow these steps to unlock access to Nexus scripts.</p>
+    <p>Follow the steps below and you'll be running Nexus in minutes.</p>
   </section>
 
   <section class="key-content">
     <div class="key-steps-wrap">
 
       <div class="key-intro">
-        <p>Access to Nexus scripts is <strong>free</strong> — you just need to grab a key from LootLabs. It takes about 2 minutes and helps support the community.</p>
+        <p>Access to Nexus is <strong>completely free</strong>. Join our Discord to grab the loader, then get your key via LootLabs or directly in the server. The whole process takes under 2 minutes.</p>
       </div>
 
+      <!-- Timeline steps -->
       <div class="key-steps">
+
         <div class="key-step">
           <div class="ks-num">01</div>
           <div class="ks-body">
-            <h3>Click the button below</h3>
-            <p>This takes you to our LootLabs key page. LootLabs is a safe, trusted key system used by many script communities.</p>
+            <h3>Join our Discord</h3>
+            <p>All access starts here. Join our <a href="https://discord.gg/YOURLINK" target="_blank" class="accent-link">Discord server</a> to get the script loader and community support.</p>
           </div>
         </div>
 
@@ -56,8 +59,8 @@
         <div class="key-step">
           <div class="ks-num">02</div>
           <div class="ks-body">
-            <h3>Complete the checkpoints</h3>
-            <p>LootLabs will show you a few short steps (usually just visiting a link or watching an ad for a few seconds). Complete all of them.</p>
+            <h3>Copy the loadstring</h3>
+            <p>Inside Discord, head to the <code>#scripts</code> channel and copy the <strong class="accent-text">loadstring</strong> provided there. This is what you'll paste into your executor.</p>
           </div>
         </div>
 
@@ -66,8 +69,21 @@
         <div class="key-step">
           <div class="ks-num">03</div>
           <div class="ks-body">
-            <h3>Copy your key</h3>
-            <p>After completing the checkpoints, your unique key will be revealed. Copy it — it looks something like <code>NEXUS-XXXX-XXXX-XXXX</code>.</p>
+            <h3>Get your key</h3>
+            <p>You can get a key in two ways:</p>
+            <div class="ks-options">
+              <div class="ks-option">
+                <span class="ks-option-label">Option A</span>
+                <p>Complete the LootLabs process using the button below. Takes about 2 minutes — just visit a few links.</p>
+                <a href="https://lootlabs.gg/YOURLINK" target="_blank" class="btn-primary" style="margin-top:0.75rem; font-size:0.75rem; padding: 0.6rem 1.5rem;">Get Key on LootLabs</a>
+              </div>
+              <div class="ks-option-divider">or</div>
+              <div class="ks-option">
+                <span class="ks-option-label">Option B</span>
+                <p>Request a key directly in our Discord server in the <code>#get-key</code> channel.</p>
+                <a href="https://discord.gg/YOURLINK" target="_blank" class="btn-secondary" style="margin-top:0.75rem; font-size:0.75rem; padding: 0.6rem 1.5rem;">Go to Discord</a>
+              </div>
+            </div>
           </div>
         </div>
 
@@ -76,41 +92,66 @@
         <div class="key-step">
           <div class="ks-num">04</div>
           <div class="ks-body">
-            <h3>Enter it in Discord</h3>
-            <p>Join our Discord server and use the <code>/key</code> command in the <strong>#key-verify</strong> channel. Paste your key and you'll get instant access to the script loader.</p>
+            <h3>Execute and enter your key</h3>
+            <p>Open Roblox, paste the loadstring into your executor and run it. A key prompt will appear — paste your key and press confirm. Done.</p>
+            <div class="ks-tip">
+              <span class="ks-tip-label">TIP</span>
+              Keys look like <code>NEXUS-XXXX-XXXX-XXXX</code> and are valid for 24 hours.
+            </div>
           </div>
         </div>
-      </div>
 
+      </div>
+      <!-- end key-steps -->
+
+      <!-- CTA box -->
       <div class="key-cta-box">
         <div class="key-glow"></div>
-        <h2>Ready to get your key?</h2>
-        <p>Takes about 2 minutes. Completely free.</p>
-        <a href="https://lootlabs.gg/YOURLINK" target="_blank" class="btn-primary big">Get Key on LootLabs →</a>
-        <p class="key-note">After getting your key, come join us:</p>
-        <a href="https://discord.gg/YOURLINK" target="_blank" class="btn-secondary">Join Discord</a>
+        <div class="key-cta-badges">
+          <span class="key-badge">Free</span>
+          <span class="key-badge">24h Keys</span>
+          <span class="key-badge">No Account Needed</span>
+        </div>
+        <h2>Ready to get started?</h2>
+        <p>Get your key on LootLabs or grab one in Discord.</p>
+        <div class="key-cta-btns">
+          <a href="https://lootlabs.gg/YOURLINK" target="_blank" class="btn-primary big">Get Key on LootLabs</a>
+          <a href="https://discord.gg/YOURLINK" target="_blank" class="btn-secondary big">Join Discord</a>
+        </div>
+        <p class="key-note">Keys expire after 24 hours. You can always get a new one for free.</p>
       </div>
 
+      <!-- FAQ -->
       <div class="faq">
         <div class="section-label">FAQ</div>
         <h2>Common <span class="accent">questions.</span></h2>
         <div class="faq-list">
+
           <div class="faq-item" onclick="toggleFaq(this)">
-            <div class="faq-q">How long does a key last? <span class="faq-arrow">▾</span></div>
-            <div class="faq-a">Keys are valid for 24 hours. You'll need to get a new one each day — this helps us keep things running smoothly.</div>
+            <div class="faq-q">Where do I get the loadstring? <span class="faq-arrow">&#9662;</span></div>
+            <div class="faq-a">The loadstring is available in the <strong>#scripts</strong> channel inside our Discord server. Join the server first, then copy it from there.</div>
           </div>
+
           <div class="faq-item" onclick="toggleFaq(this)">
-            <div class="faq-q">Is LootLabs safe? <span class="faq-arrow">▾</span></div>
-            <div class="faq-a">Yes. LootLabs is a well-known and trusted key system used by many Roblox script communities. It never asks for personal information.</div>
+            <div class="faq-q">How do I get a key? <span class="faq-arrow">&#9662;</span></div>
+            <div class="faq-a">You can get a key via LootLabs using the button above, or by asking in the <strong>#get-key</strong> channel in our Discord. Both options are completely free.</div>
           </div>
+
           <div class="faq-item" onclick="toggleFaq(this)">
-            <div class="faq-q">My key isn't working — what do I do? <span class="faq-arrow">▾</span></div>
-            <div class="faq-a">Make sure you copied the full key without extra spaces. If it still doesn't work, open a ticket in our Discord and a staff member will help you.</div>
+            <div class="faq-q">How long does a key last? <span class="faq-arrow">&#9662;</span></div>
+            <div class="faq-a">Keys are valid for 24 hours from the moment they are generated. After that, simply get a new one — it takes under 2 minutes.</div>
           </div>
+
           <div class="faq-item" onclick="toggleFaq(this)">
-            <div class="faq-q">Do I need a key every day? <span class="faq-arrow">▾</span></div>
-            <div class="faq-a">Yes, keys expire daily. The LootLabs process takes under 2 minutes so it shouldn't be a big inconvenience.</div>
+            <div class="faq-q">Is LootLabs safe? <span class="faq-arrow">&#9662;</span></div>
+            <div class="faq-a">Yes. LootLabs is a well-known and trusted key system used by many Roblox script communities. It never asks for passwords or personal information.</div>
           </div>
+
+          <div class="faq-item" onclick="toggleFaq(this)">
+            <div class="faq-q">My key is not working — what do I do? <span class="faq-arrow">&#9662;</span></div>
+            <div class="faq-a">Make sure you copied the full key with no extra spaces. If it still does not work, open a ticket in our Discord and a staff member will sort it out for you.</div>
+          </div>
+
         </div>
       </div>
 
@@ -119,7 +160,7 @@
 
   <footer>
     <div class="footer-logo">N<span class="accent">X</span>S</div>
-    <p>© 2025 Nexus Community. For educational purposes only.</p>
+    <p>&#169; 2025 Nexus Community. For educational purposes only.</p>
     <div class="footer-links">
       <a href="index.html">Home</a>
       <a href="about.html">About</a>
