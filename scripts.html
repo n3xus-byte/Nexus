@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="icon" type="image/png" href="logo.png">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Scripts — Nexus</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Syne:wght@400;600;800&display=swap" rel="stylesheet"/>
+</head>
+<body>
+
+  <nav class="navbar">
+    <div class="nav-logo">N<span class="accent">X</span>S</div>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="scripts.html" class="active">Scripts</a></li>
+      <li><a href="getkey.html">Get Key</a></li>
+      <li><a href="https://discord.gg/YOURLINK" target="_blank" class="btn-discord">Discord</a></li>
+    </ul>
+    <div class="hamburger" onclick="toggleMenu()">☰</div>
+  </nav>
+  <div class="mobile-menu" id="mobileMenu">
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="scripts.html">Scripts</a>
+    <a href="getkey.html">Get Key</a>
+    <a href="https://discord.gg/YOURLINK" target="_blank">Discord</a>
+  </div>
+
+  <section class="page-hero">
+    <div class="hero-bg-grid"></div>
+    <h1>Our <span class="accent">Scripts</span></h1>
+    <p>One unified script. All features. Most games.</p>
+  </section>
+
+  <section class="scripts-content">
+    <div class="section-label">Features</div>
+    <h2>Everything in <span class="accent">one place.</span></h2>
+
+    <div class="script-feature-list">
+
+      <div class="script-feature">
+        <div class="sf-icon">👁</div>
+        <div class="sf-text">
+          <h3>ESP — Enemy Highlight</h3>
+          <p>Renders enemy information through walls and obstacles. Fully customizable colors, box style, and visibility options.</p>
+          <ul class="sf-list">
+            <li>✦ Bounding boxes</li>
+            <li>✦ Health bars</li>
+            <li>✦ Name tags</li>
+            <li>✦ Distance indicator</li>
+            <li>✦ Skeleton ESP (select games)</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="script-feature reverse">
+        <div class="sf-icon">🎯</div>
+        <div class="sf-text">
+          <h3>Aimlock — Precision Targeting</h3>
+          <p>Smooth, configurable aimlock that locks onto the nearest target in your FOV. Designed to feel natural.</p>
+          <ul class="sf-list">
+            <li>✦ FOV circle indicator</li>
+            <li>✦ Adjustable smoothness</li>
+            <li>✦ Head / body target options</li>
+            <li>✦ Keybind toggle</li>
+            <li>✦ Team check</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="script-feature">
+        <div class="sf-icon">💥</div>
+        <div class="sf-text">
+          <h3>HBE — Hitbox Expander</h3>
+          <p>Expands enemy hitboxes to increase your effective hit rate. Works silently alongside other features.</p>
+          <ul class="sf-list">
+            <li>✦ Custom hitbox size multiplier</li>
+            <li>✦ Compatible with Aimlock</li>
+            <li>✦ Toggle on/off instantly</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <!-- How to use -->
+    <div class="how-to">
+      <div class="section-label">How to Use</div>
+      <h2>Get started in <span class="accent">3 steps.</span></h2>
+      <div class="steps">
+        <div class="step">
+          <div class="step-num">1</div>
+          <h3>Get a Key</h3>
+          <p>Head to the <a href="getkey.html" class="accent-link">Get Key</a> page and complete the LootLabs process.</p>
+        </div>
+        <div class="step-arrow">→</div>
+        <div class="step">
+          <div class="step-num">2</div>
+          <h3>Join Discord</h3>
+          <p>Enter your key in our <a href="https://discord.gg/YOURLINK" target="_blank" class="accent-link">Discord</a> to unlock the script loader link.</p>
+        </div>
+        <div class="step-arrow">→</div>
+        <div class="step">
+          <div class="step-num">3</div>
+          <h3>Execute</h3>
+          <p>Paste the loader into your executor and enjoy. That's it.</p>
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+  <section class="cta">
+    <div class="cta-glow"></div>
+    <h2>Ready to <span class="accent">try it?</span></h2>
+    <p>Get your free key and start using Nexus today.</p>
+    <a href="getkey.html" class="btn-primary big">Get Your Key</a>
+  </section>
+
+  <footer>
+    <div class="footer-logo">N<span class="accent">X</span>S</div>
+    <p>© 2025 Nexus Community. For educational purposes only.</p>
+    <div class="footer-links">
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="scripts.html">Scripts</a>
+      <a href="getkey.html">Get Key</a>
+    </div>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>

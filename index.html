@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="icon" type="image/png" href="logo.png">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Nexus — Roblox Script Community</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Syne:wght@400;600;800&display=swap" rel="stylesheet"/>
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav class="navbar">
+    <div class="nav-logo">N<span class="accent">X</span>S</div>
+    <ul class="nav-links">
+      <li><a href="index.html" class="active">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="scripts.html">Scripts</a></li>
+      <li><a href="getkey.html">Get Key</a></li>
+      <li><a href="https://discord.gg/YOURLINK" target="_blank" class="btn-discord">Discord</a></li>
+    </ul>
+    <div class="hamburger" onclick="toggleMenu()">☰</div>
+  </nav>
+  <div class="mobile-menu" id="mobileMenu">
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="scripts.html">Scripts</a>
+    <a href="getkey.html">Get Key</a>
+    <a href="https://discord.gg/YOURLINK" target="_blank">Discord</a>
+  </div>
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="hero-bg-grid"></div>
+    <div class="hero-glow"></div>
+    <div class="hero-content">
+      <div class="hero-badge">Roblox FPS Scripts</div>
+      <h1>Welcome to <span class="accent">Nexus</span></h1>
+      <p class="hero-sub">The most advanced Lua script community for Roblox FPS games. ESP, HBE & Aimlock — unified in one clean codebase.</p>
+      <div class="hero-btns">
+        <a href="https://discord.gg/YOURLINK" target="_blank" class="btn-primary">Join Discord</a>
+        <a href="getkey.html" class="btn-secondary">Get Your Key</a>
+      </div>
+      <div class="hero-stats">
+        <div class="stat"><span class="stat-num">500+</span><span class="stat-label">Members</span></div>
+        <div class="stat-div"></div>
+        <div class="stat"><span class="stat-num">50+</span><span class="stat-label">Games Supported</span></div>
+        <div class="stat-div"></div>
+        <div class="stat"><span class="stat-num">3</span><span class="stat-label">Core Features</span></div>
+      </div>
+    </div>
+    <div class="hero-visual">
+      <div class="code-card">
+        <div class="code-header"><span class="dot red"></span><span class="dot yellow"></span><span class="dot green"></span><span class="code-title">nexus.lua</span></div>
+        <pre class="code-body"><span class="c-purple">local</span> Nexus <span class="c-white">=</span> <span class="c-green">loadstring</span><span class="c-white">(</span>
+  game:HttpGet(<span class="c-yellow">"nexus-url"</span>)
+<span class="c-white">)()</span>
+
+Nexus<span class="c-white">.</span><span class="c-green">ESP</span><span class="c-white">.</span>Enabled <span class="c-white">=</span> <span class="c-purple">true</span>
+Nexus<span class="c-white">.</span><span class="c-green">HBE</span><span class="c-white">.</span>Enabled <span class="c-purple">= true</span>
+Nexus<span class="c-white">.</span><span class="c-green">Aimlock</span><span class="c-white">.</span>Enabled <span class="c-purple">= true</span>
+
+<span class="c-gray">-- Works on most FPS games</span>
+Nexus<span class="c-white">:</span><span class="c-green">Init</span><span class="c-white">()</span></pre>
+      </div>
+    </div>
+  </section>
+
+  <!-- FEATURES -->
+  <section class="features">
+    <div class="section-label">What we offer</div>
+    <h2>One Script. <span class="accent">Three Powers.</span></h2>
+    <div class="features-grid">
+      <div class="feature-card">
+        <div class="feature-icon">👁</div>
+        <h3>ESP</h3>
+        <p>See enemies through walls with clean, customizable visuals. Boxes, health bars, names — all configurable.</p>
+      </div>
+      <div class="feature-card featured">
+        <div class="feature-icon">🎯</div>
+        <h3>Aimlock</h3>
+        <p>Smooth, humanized aimlock that locks onto targets with precision. Adjustable FOV and smoothness.</p>
+        <div class="featured-tag">Most Used</div>
+      </div>
+      <div class="feature-card">
+        <div class="feature-icon">💥</div>
+        <h3>HBE</h3>
+        <p>Hitbox Expander gives you an edge on every shot. Works seamlessly alongside ESP and Aimlock.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="cta">
+    <div class="cta-glow"></div>
+    <h2>Ready to <span class="accent">level up?</span></h2>
+    <p>Join hundreds of players already using Nexus scripts across the top Roblox FPS games.</p>
+    <a href="https://discord.gg/YOURLINK" target="_blank" class="btn-primary big">Join the Community</a>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="footer-logo">N<span class="accent">X</span>S</div>
+    <p>© 2025 Nexus Community. For educational purposes only.</p>
+    <div class="footer-links">
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="scripts.html">Scripts</a>
+      <a href="getkey.html">Get Key</a>
+    </div>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>

@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="icon" type="image/png" href="logo.png">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Get Key — Nexus</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Syne:wght@400;600;800&display=swap" rel="stylesheet"/>
+</head>
+<body>
+
+  <nav class="navbar">
+    <div class="nav-logo">N<span class="accent">X</span>S</div>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="scripts.html">Scripts</a></li>
+      <li><a href="getkey.html" class="active">Get Key</a></li>
+      <li><a href="https://discord.gg/YOURLINK" target="_blank" class="btn-discord">Discord</a></li>
+    </ul>
+    <div class="hamburger" onclick="toggleMenu()">☰</div>
+  </nav>
+  <div class="mobile-menu" id="mobileMenu">
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="scripts.html">Scripts</a>
+    <a href="getkey.html">Get Key</a>
+    <a href="https://discord.gg/YOURLINK" target="_blank">Discord</a>
+  </div>
+
+  <section class="page-hero">
+    <div class="hero-bg-grid"></div>
+    <h1>Get Your <span class="accent">Key</span></h1>
+    <p>Follow these steps to unlock access to Nexus scripts.</p>
+  </section>
+
+  <section class="key-content">
+    <div class="key-steps-wrap">
+
+      <div class="key-intro">
+        <p>Access to Nexus scripts is <strong>free</strong> — you just need to grab a key from LootLabs. It takes about 2 minutes and helps support the community.</p>
+      </div>
+
+      <div class="key-steps">
+        <div class="key-step">
+          <div class="ks-num">01</div>
+          <div class="ks-body">
+            <h3>Click the button below</h3>
+            <p>This takes you to our LootLabs key page. LootLabs is a safe, trusted key system used by many script communities.</p>
+          </div>
+        </div>
+
+        <div class="ks-connector"></div>
+
+        <div class="key-step">
+          <div class="ks-num">02</div>
+          <div class="ks-body">
+            <h3>Complete the checkpoints</h3>
+            <p>LootLabs will show you a few short steps (usually just visiting a link or watching an ad for a few seconds). Complete all of them.</p>
+          </div>
+        </div>
+
+        <div class="ks-connector"></div>
+
+        <div class="key-step">
+          <div class="ks-num">03</div>
+          <div class="ks-body">
+            <h3>Copy your key</h3>
+            <p>After completing the checkpoints, your unique key will be revealed. Copy it — it looks something like <code>NEXUS-XXXX-XXXX-XXXX</code>.</p>
+          </div>
+        </div>
+
+        <div class="ks-connector"></div>
+
+        <div class="key-step">
+          <div class="ks-num">04</div>
+          <div class="ks-body">
+            <h3>Enter it in Discord</h3>
+            <p>Join our Discord server and use the <code>/key</code> command in the <strong>#key-verify</strong> channel. Paste your key and you'll get instant access to the script loader.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="key-cta-box">
+        <div class="key-glow"></div>
+        <h2>Ready to get your key?</h2>
+        <p>Takes about 2 minutes. Completely free.</p>
+        <a href="https://lootlabs.gg/YOURLINK" target="_blank" class="btn-primary big">Get Key on LootLabs →</a>
+        <p class="key-note">After getting your key, come join us:</p>
+        <a href="https://discord.gg/YOURLINK" target="_blank" class="btn-secondary">Join Discord</a>
+      </div>
+
+      <div class="faq">
+        <div class="section-label">FAQ</div>
+        <h2>Common <span class="accent">questions.</span></h2>
+        <div class="faq-list">
+          <div class="faq-item" onclick="toggleFaq(this)">
+            <div class="faq-q">How long does a key last? <span class="faq-arrow">▾</span></div>
+            <div class="faq-a">Keys are valid for 24 hours. You'll need to get a new one each day — this helps us keep things running smoothly.</div>
+          </div>
+          <div class="faq-item" onclick="toggleFaq(this)">
+            <div class="faq-q">Is LootLabs safe? <span class="faq-arrow">▾</span></div>
+            <div class="faq-a">Yes. LootLabs is a well-known and trusted key system used by many Roblox script communities. It never asks for personal information.</div>
+          </div>
+          <div class="faq-item" onclick="toggleFaq(this)">
+            <div class="faq-q">My key isn't working — what do I do? <span class="faq-arrow">▾</span></div>
+            <div class="faq-a">Make sure you copied the full key without extra spaces. If it still doesn't work, open a ticket in our Discord and a staff member will help you.</div>
+          </div>
+          <div class="faq-item" onclick="toggleFaq(this)">
+            <div class="faq-q">Do I need a key every day? <span class="faq-arrow">▾</span></div>
+            <div class="faq-a">Yes, keys expire daily. The LootLabs process takes under 2 minutes so it shouldn't be a big inconvenience.</div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <footer>
+    <div class="footer-logo">N<span class="accent">X</span>S</div>
+    <p>© 2025 Nexus Community. For educational purposes only.</p>
+    <div class="footer-links">
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="scripts.html">Scripts</a>
+      <a href="getkey.html">Get Key</a>
+    </div>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>
